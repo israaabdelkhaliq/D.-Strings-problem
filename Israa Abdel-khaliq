@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<string>
+using namespace std;
+
+int main()
+{
+    string string1, string2;
+    cout<<"Please enter two strings: ";
+    cin >> string1 >> string2;
+
+    
+    cout << "Size of the first string: "<<string1.size() << " , " << "Size of the secound string: "<< string2.size() << endl;
+
+    
+    cout << "The two strings added together: "<< string1 + string2 << endl;
+
+    
+    swap(string1[0], string2[0]);
+    cout <<"Strings after swap: "<< string1 << " , " << string2 << endl;
+
+    return 0;
+
+}
